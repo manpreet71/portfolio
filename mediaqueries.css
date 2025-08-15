@@ -203,3 +203,9 @@
         margin-top: 40px;
     }
 }
+
+
+ @media (hover:hover){
+      .experience-card{ transition: transform .18s ease, box-shadow .18s ease; }
+      .experience-card:hover{ transform: translateY(-2px); box-shadow: 0 10px 28px rgba(15,24,36,.12); }
+    }
